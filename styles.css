@@ -1,0 +1,127 @@
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+  }
+  
+  ul.topnav li {float: left;}
+  
+  ul.topnav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  ul.topnav li a:hover:not(.active) }
+  
+  ul.topnav li a.active {color: black;}
+  
+  ul.topnav li.right {float: right;}
+  
+  @media screen and (max-width: 600px)
+   {
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+  }
+ul {
+    list-style-type: none;
+    
+  }
+
+  li{
+      display: inline-block; 
+      float: left; 
+      padding: 32px; 
+
+      
+  }
+
+  li a{
+      display: block; 
+      color: black; 
+      text-align: right; 
+      text-decoration: none; 
+
+  }
+
+  li a:hover{
+
+    color: #ff5c0f; 
+  }
+
+  .Learn-to {
+      display: inline; 
+      float: right; 
+  }
+
+.nav-bar{
+  display: flex; 
+  flex-direction: row; 
+  
+  justify-content: space-around;
+  background-color: #f2f2f2;
+  font: Roboto; 
+  
+
+}
+.Learn-to{
+    display: flex; 
+    align-items: left; 
+    font-size: 32px; 
+    color:#20a8b4; 
+    
+}
+
+.Code{
+    display: flex; 
+    align-items: left; 
+    font-size: 32px; 
+    color:#ff5c0f;
+}
+
+.button {
+    border: 10px;
+    background-color:#20a8b4;
+    padding: 12px;
+    border-radius:12px; 
+    text-align: center;
+    width= auto; 
+
+    display: inline-block;
+    font-size:32px;
+   
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+.button:hover{
+   background-color: #ff5c0f; 
+   color: white; 
+   width: auto; 
+
+}
+
+.container{
+    font-size: 40px; 
+    font-family:Roboto; 
+
+}
+  
+.learningToCode {
+
+    color: #ff5c0f;
+    flex: 60%; 
+    
+}
+
+img{
+    display: flex; 
+    aign-items: right; 
+    width: 200px; 
+    height: 200px; 
+}
